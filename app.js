@@ -19,19 +19,6 @@ var typed = new Typed(".typed-text", {
 });
 
 // emailjs contact form
-// const overlay = document.querySelector(".overlay");
-// const alertDialog = document.getElementById("alert-dialog");
-// const okButton = document.querySelector(".alert-dialog-ok");
-
-// // function to display the dialog box and overlay
-
-// // function to hide the dialog box and overlay
-// const hideDialog = (event) => {
-//   event.preventDefault();
-//   overlay.style.display = "none";
-//   alertDialog.style.display = "none";
-// };
-
 function SendMail() {
   let params = {
     from_name: document.getElementById("fullName").value,
@@ -49,7 +36,7 @@ function SendMail() {
     overlay.style.display = "block";
     alertDialog.style.display = "block";
 
-    // add event listener to OK button that hides the overlay and dialog box
+    // hides the overlay and dialog box
     okButton.addEventListener("click", function (event) {
       event.preventDefault();
       overlay.style.display = "none";

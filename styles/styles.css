@@ -39,11 +39,11 @@ a {
   font-family: inherit;
 }
 button {
-  display: inline-block;  
+  display: inline-block;
   color: inherit;
   background-color: transparent;
   font-family: inherit;
-  font-size: medium;  
+  font-size: medium;
 }
 
 header {
@@ -355,7 +355,7 @@ section {
   line-height: 2rem;
 }
 .contact-content-con .left-contact .contact-info .contact-item {
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -439,14 +439,13 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(87, 110, 128);  
+  background-color: rgb(87, 110, 128);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 1rem;
   z-index: 999;
   text-align: center;
   display: none;
-  transition: opacity 400ms ease-in;
 }
 
 .alert-dialog-title {
